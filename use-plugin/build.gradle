@@ -4,6 +4,8 @@ plugins {
 }
 
 repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
     maven { url 'https://jitpack.io' }
 }
 
@@ -12,7 +14,7 @@ dependencies {
     compileOnly "io.arrow-kt:arrow-annotations:$ARROW_VERSION"
 
     testImplementation "io.kotlintest:kotlintest-runner-junit4:$KOTLIN_TEST_VERSION"
-    testImplementation 'com.github.arrow-kt.arrow-meta:testing-plugin:-SNAPSHOT'
+    testImplementation "io.arrow-kt:arrow-meta:$ARROW_META_VERSION"
 
     testCompileOnly "org.jetbrains.kotlin:kotlin-compiler-embeddable:$KOTLIN_VERSION"
     testImplementation("io.kotlintest:kotlintest-runner-junit4:$KOTLIN_TEST_VERSION") {

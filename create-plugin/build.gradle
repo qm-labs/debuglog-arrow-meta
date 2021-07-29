@@ -4,13 +4,13 @@ plugins {
 }
 
 repositories {
-    maven { url 'https://jitpack.io' }
+//    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib:$KOTLIN_VERSION"
     compileOnly "org.jetbrains.kotlin:kotlin-compiler-embeddable:$KOTLIN_VERSION"
-    compileOnly 'com.github.arrow-kt.arrow-meta:compiler-plugin:-SNAPSHOT'
+    compileOnly "io.arrow-kt:arrow-meta:$ARROW_META_VERSION"
 }
 
 compileKotlin {

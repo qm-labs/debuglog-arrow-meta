@@ -1,7 +1,7 @@
 package com.debuglog
 
 import arrow.meta.Meta
-import arrow.meta.Plugin
+import arrow.meta.CliPlugin
 import arrow.meta.invoke
 import arrow.meta.phases.analysis.body
 import arrow.meta.phases.analysis.bodySourceAsExpression
@@ -14,7 +14,7 @@ const val INT = "Int"
 const val LONG = "Long"
 const val DEBUG_LOG = "DebugLog"
 
-val Meta.debugLog: Plugin
+val Meta.debugLog: CliPlugin
     get() =
         "DebugLog" {
             meta(

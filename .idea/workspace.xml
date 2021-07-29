@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd34a14-48ab-4db7-aa8b-2814ae365f1d" name="Default Changelist" comment="" />
+    <list default="true" id="5dd34a14-48ab-4db7-aa8b-2814ae365f1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/create-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-plugin/src/main/kotlin/com/debuglog/DebugLogMetaPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/create-plugin/src/main/kotlin/com/debuglog/DebugLogMetaPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-plugin/src/main/kotlin/com/debuglog/DebugLogTransformation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/create-plugin/src/main/kotlin/com/debuglog/DebugLogTransformation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/use-plugin/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,23 +44,47 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/create-plugin">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/use-plugin">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="debug-log" type="f1a62948:ProjectNode" />
+                <item name="debuglog-arrow-meta" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="debug-log" type="f1a62948:ProjectNode" />
+                <item name="debuglog-arrow-meta" type="f1a62948:ProjectNode" />
                 <item name="create-plugin" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="debug-log" type="f1a62948:ProjectNode" />
+                <item name="debuglog-arrow-meta" type="f1a62948:ProjectNode" />
                 <item name="create-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="debuglog-arrow-meta" type="f1a62948:ProjectNode" />
+                <item name="create-plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="debuglog-arrow-meta" type="f1a62948:ProjectNode" />
+                <item name="use-plugin" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="debuglog-arrow-meta" type="f1a62948:ProjectNode" />
+                <item name="use-plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -60,17 +110,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -87,7 +138,7 @@
       <recent name="$PROJECT_DIR$/create-plugin/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DebugLogMetaPluginTest">
+  <component name="RunManager" selected="Gradle.debuglog-arrow-meta:create-plugin [build]">
     <configuration name="DebugLogMetaPluginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,52 +156,106 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DebugLogMetaPluginTest.should print function time execution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="debuglog-arrow-meta [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.debuglog.DebugLogMetaPluginTest.should print function time execution&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":create-plugin:cleanTest" />
-            <option value=":create-plugin:test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DebugLogExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="debug-log.use-plugin.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.debuglog.DebugLogExampleKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="debuglog-arrow-meta [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="debuglog-arrow-meta:create-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/create-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="debuglog-arrow-meta:create-plugin [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/create-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DebugLogMetaPluginTest" />
-        <item itemvalue="Kotlin.DebugLogExampleKt" />
-        <item itemvalue="Gradle.DebugLogMetaPluginTest" />
-        <item itemvalue="Gradle.DebugLogMetaPluginTest" />
+        <item itemvalue="Gradle.debuglog-arrow-meta:create-plugin [build]" />
+        <item itemvalue="Gradle.debuglog-arrow-meta [build]" />
+        <item itemvalue="Gradle.debuglog-arrow-meta [clean]" />
+        <item itemvalue="Gradle.debuglog-arrow-meta:create-plugin [clean]" />
         <item itemvalue="Gradle.DebugLogMetaPluginTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,34 +269,21 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1628" height="577" key="GridCell.Tab.0.bottom" timestamp="1586214299617">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1628" height="577" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1586214299617" />
-    <state width="1628" height="577" key="GridCell.Tab.0.center" timestamp="1586214299616">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1628" height="577" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1586214299616" />
-    <state width="1628" height="577" key="GridCell.Tab.0.left" timestamp="1586214299615">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1628" height="577" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1586214299615" />
-    <state width="1628" height="577" key="GridCell.Tab.0.right" timestamp="1586214299617">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state width="1628" height="577" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1586214299617" />
-    <state x="233" y="48" key="SettingsEditor" timestamp="1586043734147">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="233" y="48" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1586043734147" />
-    <state x="70" y="27" key="new project wizard" timestamp="1586213587159">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="70" y="27" key="new project wizard/0.23.1680.947@0.23.1680.947" timestamp="1586213587159" />
-    <state x="421" y="23" width="838" height="947" key="search.everywhere.popup" timestamp="1586133882663">
-      <screen x="0" y="23" width="1680" height="947" />
-    </state>
-    <state x="421" y="23" width="838" height="947" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1586133882663" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

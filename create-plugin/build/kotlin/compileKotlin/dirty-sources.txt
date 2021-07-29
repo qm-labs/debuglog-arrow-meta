@@ -1,0 +1,2 @@
+/Users/royr/debuglog-arrow-meta/create-plugin/src/main/kotlin/com/debuglog/DebugLogMetaPlugin.kt
+/Users/royr/debuglog-arrow-meta/create-plugin/src/main/kotlin/com/debuglog/DebugLogTransformation.kt
