@@ -1,0 +1,5 @@
+build
+*.kt.meta
+
+.gradle
+.idea

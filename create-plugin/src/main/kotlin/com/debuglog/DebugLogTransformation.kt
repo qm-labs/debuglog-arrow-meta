@@ -6,7 +6,9 @@ import arrow.meta.invoke
 import arrow.meta.phases.analysis.body
 import arrow.meta.phases.analysis.bodySourceAsExpression
 import arrow.meta.quotes.Transform
+import arrow.meta.quotes.TypedQuoteTemplate
 import arrow.meta.quotes.namedFunction
+import org.jetbrains.kotlin.descriptors.FunctionDescriptor
 import org.jetbrains.kotlin.psi.*
 import org.jetbrains.kotlin.utils.addToStdlib.safeAs
 
@@ -18,10 +20,10 @@ val Meta.debugLog: CliPlugin
     get() =
         "DebugLog" {
             meta(
-                    namedFunction({ validateFunction() }) { c: KtNamedFunction ->
+                    namedFunction(this, ::validateFunction) { (c, descriptor) ->
                         Transform.replace(
                                 replacing = c,
-                                newDeclaration = replace(c).function
+                                newDeclaration = replace(c).function(descriptor)
                         )
                     }
             )
@@ -35,8 +37,8 @@ val Meta.debugLog: CliPlugin
  * - Function has a Long return type.
  * - Function has a DebugLog annotation.
  */
-private fun KtNamedFunction.validateFunction(): Boolean =
-        hasOneIntParam() && hasLongReturnType() && hasAnnotation(DEBUG_LOG)
+private fun validateFunction(it:TypedQuoteTemplate<KtNamedFunction, FunctionDescriptor>): Boolean =
+        it.element.hasOneIntParam() && it.element.hasLongReturnType() && it.element.hasAnnotation(DEBUG_LOG)
 
 /**
  * Check function has 1 param that is of Int type.
